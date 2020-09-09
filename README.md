@@ -9,7 +9,7 @@ The environment is from [here](https://gym.openai.com/envs/Taxi-v2/).
 To do the simple demo, on Linux/Mac with Docker installed, make `taxi.sh` executable and run it:
 ```
 git clone https://github.com/andyharless/openai-gym-taxi-v3-udacity.git
-cd openai-gym-taxi-v3-udacity
+cd openai-gym-taxi-v2-udacity
 chmod u+x taxi.sh
 ./taxi.sh
 ```
