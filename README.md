@@ -4,7 +4,15 @@
 
 The skeleton of this code is from [Udacity](https://github.com/udacity/deep-reinforcement-learning/tree/master/lab-taxi).  This version uses Taxi-v2, as does theirs, even though v2 is deprecated.
 
-To do the simple demo, on Linux/Mac with Docker installed, make `taxi.sh` executable and run it.
+The environment is from [here](https://gym.openai.com/envs/Taxi-v2/).
+
+To do the simple demo, on Linux/Mac with Docker installed, make `taxi.sh` executable and run it:
+```
+git clone https://github.com/andyharless/openai-gym-taxi-v3-udacity.git
+cd openai-gym-taxi-v3-udacity
+chmod u+x taxi.sh
+./taxi.sh
+```
 
 It should produce a score (best average reward of 100) of 9.57
 
