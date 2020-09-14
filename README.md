@@ -24,4 +24,4 @@ The sampling distribution for stochastic actions is the softmax of a linear comb
 
 It should produce a score (best average reward of 100) of 9.57  (The [`output.txt`](https://github.com/andyharless/openai-gym-taxi-v2-udacity/blob/master/output.txt) file shows a sample output.)
 
-Of course, I cheated by using a good seed.  If you don't cheat, the typical score is more like 9.44
+As of 2020-09-14 it is #8 on the [Leaderboard](https://github.com/openai/gym/wiki/Leaderboard#TaxiV2) for the v3 Taxi environment at OpenAI Gym, but I cheated by using a good seed for my random numbers.  If you use a truly random seed, the typical score is more like 9.44  
