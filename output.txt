@@ -1,0 +1,40 @@
+Sending build context to Docker daemon  130.6kB
+Step 1/6 : FROM python:3.6
+ ---> b8e9b6d2fef3
+Step 2/6 : RUN pip install numpy==1.15
+ ---> Using cache
+ ---> da63177ecd08
+Step 3/6 : RUN pip install gym==0.11
+ ---> Using cache
+ ---> 089c688f04cb
+Step 4/6 : COPY ./*.py /usr/src/
+ ---> Using cache
+ ---> 7e235a9e8e69
+Step 5/6 : WORKDIR /usr/src
+ ---> Using cache
+ ---> 21fd2d3e5011
+Step 6/6 : CMD ["python", "main.py"]
+ ---> Using cache
+ ---> 3628aba0a96c
+Successfully built 3628aba0a96c
+Successfully tagged taxi:latest
+
+
+Begin Taxi-v2 learning...
+Parameters:
+path_memory_decay=0.7, Q_weight=0.02, recency_weight=8, eps_start=-0.005, eps_decay=0.00022
+learning_rate=0.7, discount_rate=0.5, min_stochasticity=0
+Episode 10000/80000 || epsilon=0.1102505, Best average reward 4.2
+Episode 20000/80000 || epsilon=0.0122161, Best average reward 8.78
+Episode 30000/80000 || epsilon=0.0013536, Best average reward 9.38
+Episode 40000/80000 || epsilon=0.0001500, Best average reward 9.38
+Episode 50000/80000 || epsilon=0.0000166, Best average reward 9.38
+Episode 60000/80000 || epsilon=0.0000018, Best average reward 9.38
+Episode 70000/80000 || epsilon=0.0000002, Best average reward 9.57
+Episode 80000/80000 || epsilon=0.0000000, Best average reward 9.57
+Run 8/1, average so far=9.57
+
+Local seed:  0
+Average:  9.57
+Median:  9.57
+[9.57]
